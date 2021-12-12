@@ -24,10 +24,21 @@
  }
  
  body {
-    background: $white;
+    margin: auto;
+    width: 100%;
     color: $black;
-    font-family: 'Arial', sans-serif;
- }
+    overflow-x: hidden;
+    height: 100%;
+    background-color: $white;
+}
+
+ .segment {
+    width: 50%;
+    color: $black;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: $white;
+}
 
  .btn.btn-primary {
     font-family: 'Arial', sans-serif;
