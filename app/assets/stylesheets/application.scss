@@ -17,11 +17,21 @@
  $black: black;
  
  .navbar {
-         margin-bottom: 0;
-         background: $black;
+    margin-bottom: 0;
+    margin-top: 0;
+    background: $black;
+    color: $white;
  }
+ 
  body {
-         background: $white;
-         color: $black;
-         font-family: 'Arial', sans-serif;
+    background: $white;
+    color: $black;
+    font-family: 'Arial', sans-serif;
  }
+
+ .btn.btn-primary {
+    font-family: 'Arial', sans-serif;
+    background-color: $white;
+    color: $black;
+    border: 2px solid $black; /* Green */
+}
